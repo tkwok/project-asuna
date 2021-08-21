@@ -12,6 +12,6 @@ module.exports = withBundleAnalyzer({
     dirs: ['pages']
   },
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [path.join(__dirname, 'sass')],
   }
 });
