@@ -1,16 +1,5 @@
-button {
-  &.btn-default {
-    font-family: Arial;
-    font-size: 1rem;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-
-    &:hover {
-      background-color: blue;
-      color: white;
-    }
+@each $tuple in $buttonConfig {
+  button.btn-#{nth($tuple, 1)} {
+    width: nth($tuple, 2);
   }
 }
