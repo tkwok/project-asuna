@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import '../sass/app.scss';
 
 export default function AppWrapper({ Component, pageProps }) {
