@@ -7,13 +7,13 @@ export default function indexPage(props) {
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Project Asuna</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+            <NavDropdown title="Products" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -22,9 +22,9 @@ export default function indexPage(props) {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link href="#deets">New Account</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              Dank memes
+              Login
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -33,7 +33,7 @@ export default function indexPage(props) {
 
       <Container fluid>
         <Row>
-          <Col>Column</Col>
+          <Col>Body column</Col>
         </Row>
       </Container>
     </>
