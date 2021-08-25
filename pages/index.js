@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown, Container, Row, Col } from 'react-bootstrap';
 export default function indexPage(props) {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Container>
         <Navbar.Brand href="#home">Project Asuna</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
