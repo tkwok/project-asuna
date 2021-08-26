@@ -23,7 +23,7 @@ export default function indexPage(props) {
           </Nav>
           <Nav>
             <Nav.Link href="#deets">New Account</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#login">
               Login
             </Nav.Link>
           </Nav>
