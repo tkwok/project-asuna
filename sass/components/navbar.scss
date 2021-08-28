@@ -1,0 +1,8 @@
+nav.navbar {
+  .dropdown-toggle:after {
+    content: none
+  }
+  .dropdown-menu.show {
+      border: 0;
+  }
+}
