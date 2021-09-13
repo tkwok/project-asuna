@@ -1,5 +1,7 @@
 @each $tuple in $buttonConfig {
+
   button.btn-#{nth($tuple, 1)} {
     width: nth($tuple, 2);
   }
+  
 }

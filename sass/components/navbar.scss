@@ -2,9 +2,11 @@ nav.navbar {
   .nav-link {
     padding: 0.5rem 5rem;
   }
+
   .dropdown-toggle:after {
     content: none;
   }
+
   .dropdown-menu.show {
       border: 0;
   }
